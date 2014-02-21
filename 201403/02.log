@@ -1,0 +1,12 @@
+1500 - 1630 : check script1500 - check script1500 - check script
+2200 - 2300 : fix uploads by creating new user browserlab but this 
+            requires sudo sshing once into router and riverside. need
+            a better way. fix it using strictkeycheck=no flag with scp.
+2330 - 0130 : fix permissions and folders so that all logs get scp to
+            home/browserlab/data/<folder> with a 777 permission set.
+            also use sudo install -D -t /usr/local/bin/ udpprober to
+            install shaperprobe and iperf-reverse on client easily
+            checked all processes work fine in right order!
+            TODO: might need a way to distinguish the user... maybe
+            a folder name using the mac address from ifconfig?
+
