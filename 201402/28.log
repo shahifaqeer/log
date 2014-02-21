@@ -1,0 +1,19 @@
+- thought a lot about what we are doing, confusions, hypothesis, experiments
+- https://docs.google.com/document/d/1FcZyX-MRb2iV5KpsujjP-FoXxcQj7DmO2SjjeJjwH9A/edit
+- tried some iperfs + tcpdump + fping but manually very tough
+
+TODO:
+- finish script and run it at home multiple runs of 10 sec each
+-- need to check if diff between RS for no traffic and traffic conditions based on bottleneck
+-- uplink AS traffic should have huge difference in RS/SR
+-- downlink SA traffic should have difference is AR/RA
+- confirm on server, router, client, that stuff runs together - now that we aren't threading
+- create iperf A to S and take tcpdump at A, R, S
+- vice versa
+
+Other TODOs:
+- email renata+anna and then nick+srikanth with refined version of Q/A doc
+- finish appu background and version
+- apply stephan's tc script and redo experiment 50 times with 10mbit increases instead of 5
+- how does tc work
+- Study bufferbloat, network algo for quals
