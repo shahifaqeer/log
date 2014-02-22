@@ -9,12 +9,11 @@
 2230 - 2320 : github page details done
             currently running 30 x controlled measurements with new
             ratelimiting
-            TODO: analysis of collected data.
-            TODO: put script on lab laptop and open a reverse ssh
-            channel through chrontab and give laptop to people.
-            questions document - TODO
+0010 - 0550 : questions document organized properly
 
-
+TODO: analysis of collected data.
+TODO: put script on lab laptop and open a reverse ssh
+    channel through chrontab and give laptop to people.
 TODO:
 - web10G on riverside - ask ben
 - tshark throughput from iperf flow
