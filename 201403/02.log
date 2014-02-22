@@ -13,6 +13,8 @@
             one run of tests from my laptop show a 10 ms increase on 
             avg on the avg RTT on RS. These values will not be reliable
             unless we do multiple runs of the tests and take avg.
+0330 - 0500 : finished client experiment scheduler. checking now and 
+            emailing anna the code with required dependencies.
 
 
 TODO:
