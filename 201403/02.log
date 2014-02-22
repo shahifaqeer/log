@@ -9,6 +9,11 @@
             checked all processes work fine in right order!
             TODO: might need a way to distinguish the user... maybe
             a folder name using the mac address from ifconfig?
+0200 - 0330 : preliminary results of latency under load test done. Just
+            one run of tests from my laptop show a 10 ms increase on 
+            avg on the avg RTT on RS. These values will not be reliable
+            unless we do multiple runs of the tests and take avg.
+
 
 TODO:
 quals :(
