@@ -1,0 +1,24 @@
+1430 - 1630 : construct reply to renata's email.
+1930 - 2030 : reply to renata and anna's email
+2330 - 0030 : study replies by mark, renata, nick
+0030 - 0100 : Meeting with Nick:
+            - one shot measurement may not capture anything as the
+            channel varies too fast.
+            - user performance issue should be indicated from browser
+            get indicator; collect passive trace; do active
+            measurement while collecting trace.
+            * do I need some way to show passive v/s active measurement?
+            - use ping time medians for bufferbloat jump
+            - mark's experiment + passive trace seems like a good idea
+0100 - 0130 : try some wireshark over router capture from controlled exp
+            TODO: add radiotap capture to controlled experiments for both
+            router and client devices - main.py and utils.py
+
+TODO:
+controlled experiment analysis
+- iperf, probe
+- ping latencies, losses
+- tcpdump > tcptrace instant throughput
+* radiotap > tshark # retrans and bitrate
+- did not take radiotap yet [TODO]
+real data analysis
