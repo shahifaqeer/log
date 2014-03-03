@@ -1,3 +1,6 @@
 1330 - 1415 : rerun client.py script to see where its getting stuck.
             indx keeps getting printed - thats not good.
             script did not get stuck - that's good.
+            TODO: analysis of collected data.
+            suggestion: put script on lab laptop and open a reverse ssh
+            channel through chrontab and give laptop to people.
