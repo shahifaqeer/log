@@ -2,8 +2,20 @@
             indx keeps getting printed - thats not good.
             script did not get stuck - that's good.
 1500 - 1600 : read up tbf and stephane's script
-1930 - 2030 : try stephane's script and run experiment.
-            TODO: EMAIL UPDATES NOW!
+1930 - 2200 : try stephane's script and run experiment.
+            emailed update to srikanth for opinion
+            - make it shorter.
+            - fixing attached links.
+2230 - 2320 : github page details done
+            currently running 30 x controlled measurements with new
+            ratelimiting
             TODO: analysis of collected data.
             TODO: put script on lab laptop and open a reverse ssh
             channel through chrontab and give laptop to people.
+            questions document - TODO
+
+
+TODO:
+- web10G on riverside - ask ben
+- tshark throughput from iperf flow
+- analyzing radiotap headers
