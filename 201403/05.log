@@ -11,3 +11,6 @@
             fix measurement script
             - need to check if tcpdump bug fixed
             - added before, during, after, passive measurements
+2230 - 0200 : qual stuff study - old paper, sbgp
+0400 - 0500 : fixed tcpdump; enhanced experiment script;
+            - now try running few hours on trial laptop
