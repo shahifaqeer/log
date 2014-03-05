@@ -1,0 +1,6 @@
+0930 - 1100 : found bug in script using wireshark.
+            - tcpdump and radiotap not recording full time
+            - wrong interface or port? problem with process?
+1100 - 1200 : browserlab meeting
+1230 - 1400 : still trying to fix tcpdump bug
+            also added poll iwconfig and ifconfig - but comment out
