@@ -4,3 +4,10 @@
 1100 - 1200 : browserlab meeting
 1230 - 1400 : still trying to fix tcpdump bug
             also added poll iwconfig and ifconfig - but comment out
+            TODO: abwprobe
+1400 - 1600 : add features to controlled experiments
+            - radiotap dump
+            - udpprobe tests
+            fix measurement script
+            - need to check if tcpdump bug fixed
+            - added before, during, after, passive measurements
