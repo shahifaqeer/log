@@ -14,3 +14,5 @@
 2230 - 0200 : qual stuff study - old paper, sbgp
 0400 - 0500 : fixed tcpdump; enhanced experiment script;
             - now try running few hours on trial laptop
+0500 - 0630 : script now collecting data on hnl2
+            - had problem with dns resolv to make Internet work
