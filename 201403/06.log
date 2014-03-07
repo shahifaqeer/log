@@ -6,6 +6,8 @@
 0200 - 0500 : collect test traffic for 0mbps, 1mbps, 6mbps bottlenecks from testbed
             analyze some tcpdumps and radiotap headers
             summary in Notes
+0500 - 0530 : updated testlogs to work for both real and testbed
+            - need to merge it with master now
 
 TODO:
 - use test traces from testbed to see if bufferbloat is happening or not
