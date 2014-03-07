@@ -1,2 +1,5 @@
 1600 - 1700 : stupid schedule argument bug in script. Now running on hnl2
             also missing sshpass
+1830 - 1900 : fixed bug to print iwconfig etc regularly at 10 sec interval
+2300 - 0000 : read ch1 notes 7260
+0030 - 0200 : port script to hnl1 + homenetworklab to analyze tc buffer + iperf + udp
