@@ -3,3 +3,14 @@
 1830 - 1900 : fixed bug to print iwconfig etc regularly at 10 sec interval
 2300 - 0000 : read ch1 notes 7260
 0030 - 0200 : port script to hnl1 + homenetworklab to analyze tc buffer + iperf + udp
+0200 - 0500 : collect test traffic for 0mbps, 1mbps, 6mbps bottlenecks from testbed
+            analyze some tcpdumps and radiotap headers
+            summary in Notes
+
+TODO:
+- use test traces from testbed to see if bufferbloat is happening or not
+- learn how to play with radiotap
+- learn how to get inst. throughput graphs from tcpdump
+- analyze udp channel, tcp channel, ping channel, nothing channel from radiotap
+- maybe remove tcpdump before and after stage in favor of a larger tcpdump
+
