@@ -1,0 +1,3 @@
+1800 - ???? : TODO bufferbloat on controlled reading 0, 1, 6 mbps [CONTROLLED]
+              TODO variance (distribution) of iperf/probe values over wireless medium [CONTROLLED/MEASURED]
+              TODO active test (iperf/probe) vs inst. throughput v/s bitrate/RSSI/retrans [CONTROLLED/MEASURED]
