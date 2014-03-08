@@ -1,0 +1,4 @@
+1500 - 1800 : made parsers for fping, ping, iperf, probe in parsers.py
+              next todo: iperf and probe distributions - both final and
+              non-final values.
+
