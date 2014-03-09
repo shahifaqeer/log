@@ -1,4 +1,10 @@
 1500 - 1800 : made parsers for fping, ping, iperf, probe in parsers.py
               next todo: iperf and probe distributions - both final and
               non-final values.
+1800 - 2000 : fixed udp probe on R
+              its old format but parser can parse it
+2100 - 2200 : bw distributions - plotted iperf
+              - RA_tcp and SR_tcp - no values. definitely need RA to compare.
+              - AR_tcp - lesser values. why?
+
 
