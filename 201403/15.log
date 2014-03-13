@@ -4,8 +4,23 @@
             some useful questions for research work
             codel currently not working for home networks due to modem buffer
             Sizing Router Buffer
-            ECN, WFQ, AQM, DiffServ, Traffic Shaping
+0100 - 0400 ECN, WFQ, AQM, DiffServ, Traffic Shaping, SABRE
 
             TODO: Netalyzr, Characterizing Broadband Networks
-            TODO: revise 6250 notes, adaptive video streaming, wireless protos
+            TODO: revise 6250 notes, adaptive video streaming - dash,
+            wireless routing protocols, SDN and other papers on Nick's list
 
+
+
+Projects
+
+- Where is the bufferbloat in homenetworks?
+    - Wifi buffer ← study wired v/s wifi v/s directly from router
+    - Router buffer (shouldn’t happen with BISmark lancre, should happen with quirm/klatch) ← should be able to tell in experimental testbed which has no modem buffer
+    - Modem buffer ← how to differentiate this with below? Its a layer 2 device? Can I ping it?
+    - Last mile buffer (first hop from modem to ISP) ← should be able to tell with PAM14 method
+    - AS (core) ← PAM14 method applied on each hop in traceroute (maybe need an MTR type tool for this?)
+    - Destination ← observe upload and download bufferbloat at destination riverside.
+
+- Is performance of TCP split at router better than TCP e2e over wireless?
+    - need to study cases where iperf TCP AR, RS > AS and vice versa
