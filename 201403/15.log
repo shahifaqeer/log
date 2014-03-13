@@ -1,0 +1,11 @@
+1500 - 1730 bufferbloat
+            TODO: codel
+1930 - 0000 more insights into bufferbloat and codel.
+            some useful questions for research work
+            codel currently not working for home networks due to modem buffer
+            Sizing Router Buffer
+            ECN, WFQ, AQM, DiffServ, Traffic Shaping
+
+            TODO: Netalyzr, Characterizing Broadband Networks
+            TODO: revise 6250 notes, adaptive video streaming, wireless protos
+
