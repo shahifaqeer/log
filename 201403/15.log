@@ -6,11 +6,12 @@
             Sizing Router Buffer
 0100 - 0430 ECN, WFQ, AQM, DiffServ, Traffic Shaping, SABRE, TCP cong control
 
-            TODO: Netalyzr, Characterizing Broadband Networks
-            TODO: revise 6250 notes, adaptive video streaming - dash,
-            wireless routing protocols, SDN and other papers on Nick's list
+TODO: revise 6250 notes, adaptive video streaming - dash,
+wireless routing protocols, SDN and other papers on Nick's list
+TODO: Netalyzr, Characterizing Broadband Networks
 
 An important question: should I use pings or a small iperf flow to get queueing delays, RTTs etc?
+
 
 
 Projects
