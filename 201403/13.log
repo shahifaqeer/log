@@ -1,0 +1,31 @@
+forgot to update past few days
+9, 10, 11, 12 MARCH - worked  on fixing script collection errors
+and getting sanitized measurements
+
+- analyzed home data from hnl2 but there are still some measurements
+  missing.
+- basically described variance in real probing
+
+- analyzed single run from controlled experiment hnl1
+- a view of tcpdump and how sometimes tcpdump doesn't correspond to iperf
+  report
+
+advise
+    - iperf seems more important than udp
+    - iperf polling may not really make sense, but lets plot it anyway
+
+TODO: explore each and every graph collected in detail
+TODO: do similar tcpdump analysis for real data (eg. anna, my new set, etc)
+TODO: still need to check on bufferbloat in real measurements vs controlled
+      - is this due to some weird reason like only last mile or bad buffer
+APPROACH: for many runs, just plot iperf final and iper polled values,
+        wherever we see weirdness, analyze tcpdump for it
+TODO: reply to christian, meeting update on browserlab list, share code
+      for analyzing measurements.
+
+
+TODAY:
+1400-0100:  GUI for sazo - finally done though with bugs
+0400-0530:  papers - PAM2014 RTT
+            - paxon strategy for internet measurments
+
