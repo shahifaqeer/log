@@ -10,6 +10,7 @@
             TODO: revise 6250 notes, adaptive video streaming - dash,
             wireless routing protocols, SDN and other papers on Nick's list
 
+An important question: should I use pings or a small iperf flow to get queueing delays, RTTs etc?
 
 
 Projects
