@@ -4,7 +4,7 @@
             some useful questions for research work
             codel currently not working for home networks due to modem buffer
             Sizing Router Buffer
-0100 - 0400 ECN, WFQ, AQM, DiffServ, Traffic Shaping, SABRE
+0100 - 0430 ECN, WFQ, AQM, DiffServ, Traffic Shaping, SABRE, TCP cong control
 
             TODO: Netalyzr, Characterizing Broadband Networks
             TODO: revise 6250 notes, adaptive video streaming - dash,
