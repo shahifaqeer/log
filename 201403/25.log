@@ -1,5 +1,8 @@
 1500 - 1700 email some replies. get back on track. update linktest readme.
 2000 - 2100 email browserlab. reorder old logs.
+2200 - 2300 fix script constants and run on hnl2
 
 TODO:
-
+redo results for another run
+check if tcp AS < AR RS consistently
+check bufferbloat hnl2 and hnl1 testbed
