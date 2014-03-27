@@ -1,0 +1,16 @@
+TODO:
+- hnl2_runs
+-- iperf throughput v/s tcpdump throughput (A, R, S) for each segment for traffic -> scatter plot with marker size ~ variance per traffic
+-- individual iperf, channel and throughput plots (after migrating ipynb code to a script)
+-- segment vs channel for traffic: num_retrans boxplot, total % bitrate for each rate -> AR vs RA channel
+-- segment vs tcp quality for traffic: CWND, TDAs -> is there a diff in CWND for AS traffic and AR traffic?
+
+- analyze latency vs bottleneck graphs from testbed
+
+- google doc / pdf my results
+
+- appu code background and version
+
+- sazo luci bismark ON/OFF option
+
+- email congos ak
