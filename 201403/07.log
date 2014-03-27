@@ -1,3 +1,8 @@
-1800 - ???? : TODO bufferbloat on controlled reading 0, 1, 6 mbps [CONTROLLED]
+1800 - 2000 : TODO bufferbloat on controlled reading 0, 1, 6 mbps [CONTROLLED]
               TODO variance (distribution) of iperf/probe values over wireless medium [CONTROLLED/MEASURED]
               TODO active test (iperf/probe) vs inst. throughput v/s bitrate/RSSI/retrans [CONTROLLED/MEASURED]
+0200 - 0530 : udpprobe will now gather train info
+              updated udpprobe package on dp5:/data/ and put it on router
+              run it on hnl2--riverside for 50 runs
+              todo: distributions of bw measurements
+
