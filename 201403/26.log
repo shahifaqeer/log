@@ -1,0 +1,7 @@
+0900 - 1030 quick analysis of hnl2_home_10runs
+            iperf cdfs and boxplots
+1100 - 1200 meeting
+            - combined plot showing iperf throughput v/s tcpdump throughput
+            - or tcpdump v/s channel
+            - fix router iperf
+            - bufferbloat testbed and home

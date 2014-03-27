@@ -1,0 +1,8 @@
+1400 - 1500 ordered sazo devices
+
+TODO
+- change experiment_time to 10 sec instead of 15 as
+there is problem with tcpdump on router with 15.
+- analyze latency_under_load from testbed with new tc
+for bufferbloat
+- analyze hnl2_home_10runs from hnl2 for bufferbloat
