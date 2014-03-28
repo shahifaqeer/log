@@ -1,6 +1,15 @@
 0830 - 0900 radiotap vs tcpdump vs iperf plots for hnl2
 0930 - 1100 meta data
             ipynb code structure for data collection
-            TODO: think about plots from this data
 1400 - 1700 figure out tcpdump -> csvlog for congestion
             window analysis
+1930 - 2100 api for recovering tcpdump cwnd iperf, throughput
+            retrans radiotap etc
+2300 - 0100 TODO:
+            - plot average + std time series in one plot for a scenario
+            -- CWND, throughput/sec, iperf, mac retrans/sec v/s time
+            - plot scene v/s boxplot of bitrates (up_A, up_R, dw_A, dw_R)
+            - plot scene v/s boxplot of iperf throughput + tcpdump throughput (A, R, S)
+            - plot CWND v/s retrans
+            -- plot scene v/s CWND (A, R, S) + mac retrans (up_A, up_R, dw_A, dw_R)
+
