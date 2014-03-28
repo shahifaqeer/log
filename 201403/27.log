@@ -1,5 +1,5 @@
 1400 - 1500 ordered sazo devices
-
+1500 - 1700 latency under load fix for 30 runs (not just one run)
 TODO
 - change experiment_time to 10 sec instead of 15 as
 there is problem with tcpdump on router with 15.
