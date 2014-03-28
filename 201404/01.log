@@ -1,17 +1,35 @@
-TODO:
-- CWND v/s Retrans plot:
--- y axis retrans as a % of total number of packets in that second
--- y axis cwnd in scientific notation
+1200 - 1700 cwnd vs mac retrans plots
+1800 - 1900 discussion with abhinav and srikanth
+            - concentrate on 2 main results and get data from many homes
+            1. case for split tcp
+            - if e2e < segment bw consistently across many homes
+            -- see slight AS < RS reported by iperf, but not by tcptrace
+            -- only tested good channel for now, need to test bad channel
+            2. study of bufferbloat
+            - if bismark ul and my ul show huge latency jumps during traffic
+            -- this happens when router generates data not when client
+            -- is probably a limitation of the router only
 
-- boxplots across multiple experiments to confirm
--- AS < AR and RS
--- SA < RA and SR
-* also fix SR measurement using netperf?
+1900 - 2100 iperf and tcptrace boxplots
+2200 - 0430 channel retransmissions and bitrates boxplots
+            bufferbloat and loss barplots
 
-- bufferbloat does it happen when I introduce traffic?
--- quantify it from multiple homes
--- study bismark data RS_baseline v/s RS_underload as motivation
+SUMMARY
+=======
+DONE - boxplots across multiple experiments to confirm
+DONE -- AS < AR and RS
+TODO -- SA < RA and SR *needs fix*
 
-- data from many homes
--- case for split tcp
--- study of bufferbloat
+DONE - bufferbloat does it happen when I introduce traffic?
+TODO -- quantify it from multiple homes
+TODO -- study bismark data RS_baseline v/s RS_underload as motivation
+
+
+FIXES:
+* CWND v/s Retrans plot:
+    - y axis retrans as a % of total number of packets in that second
+    - y axis cwnd in scientific notation
+
+* fix SR measurement using netperf?
+* fix iperf at R
+* try udp flooding traffic to measure bufferbloat and udp stream to get rtt
