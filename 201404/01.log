@@ -1,0 +1,17 @@
+TODO:
+- CWND v/s Retrans plot:
+-- y axis retrans as a % of total number of packets in that second
+-- y axis cwnd in scientific notation
+
+- boxplots across multiple experiments to confirm
+-- AS < AR and RS
+-- SA < RA and SR
+* also fix SR measurement using netperf?
+
+- bufferbloat does it happen when I introduce traffic?
+-- quantify it from multiple homes
+-- study bismark data RS_baseline v/s RS_underload as motivation
+
+- data from many homes
+-- case for split tcp
+-- study of bufferbloat
