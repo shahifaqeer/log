@@ -1,0 +1,7 @@
+UPDATES:
+4/2 multiple meetings which need to be filed
+4/3 waste
+4/4 extreme bugfixes, replace iperf with netperf for bidirectional and collect data
+4/5 collect data with client-modem direct connection up and down
+    collect wired client-router-modem 20 runs with netem latency 1 ms both directions
+    collect wireless good data 50 runs
