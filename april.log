@@ -1,0 +1,9 @@
+16: 220 - 300
+  WTF evaluation method - two parameters
+  RTT of perf flow: if RTT full_sz avg > 15 ms => wireless is not a bottleneck
+  tcptrace -rln tcpdump_R.pcap
+  usually tcptrace should be taken on br-lan for this
+  Coefficient of variability
+
+  CSI: packet delivery - how does it make sense?
+  - connect it to throughput somehow
