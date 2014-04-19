@@ -10,7 +10,17 @@
 
     1630 - 1800: read csi, email about csi
 
-17:
-18:
+17: try wtf analysis on my collected data
+    adapt srikanth's scripts accordingly
+18: talk to srikanth regarding wtf
+      wtf only works on downlink SA and SR (RA doesn't make sense here)
+      rtt - look at the downlink flow from S
+    collect wireless good data at home
+    TODO
+      run wtf on wireless good, wireless bad, and test traces from lab
+      fix the parser for rtt avg for the right Sx flow
+      see coeff for those flows which actually saturate the uplink (~ 5000 packets)
+      collect data at arpit's place
+      somehow collect wireless bad data...
 19:
 20:
