@@ -22,5 +22,15 @@
       see coeff for those flows which actually saturate the uplink (~ 5000 packets)
       collect data at arpit's place
       somehow collect wireless bad data...
-19:
-20:
+19:0 :(
+20:0 :(
+21:0 :(
+22: WTF analysis on wireless good and congested
+23: turns out wireless good isn't really "good"
+    also need to study wireless tcp - meeting on friday
+24: FIGURE OUT RADIOTAP -> TCP HEADER CONVERSION
+    analyze wired tcp with 18 +/- 10 ms delay (19)
+    analyze wireless_okay and wireless_congested new datasets (20 each)
+    analyze arpit's home wireless (30)
+    analyze hnl1 wireless good access link varying dataset (20)
+    give laptop to yogesh for wireless_good access_link bottleneck case
