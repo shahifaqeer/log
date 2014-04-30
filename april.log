@@ -34,3 +34,13 @@
     analyze arpit's home wireless (30)
     analyze hnl1 wireless good access link varying dataset (20)
     give laptop to yogesh for wireless_good access_link bottleneck case
+25-29:
+    testbed with varying access link and delay
+    analyze wireless and tcp parameters together for arpit data
+30: TODO:
+      wireless and tcp parameters in bad wireless home
+      implement split TCP in bad wireless home
+      non coop with a wired node - testbed, bad wireless and arpit home
+      graph access/delay testbed v/s parameters
+      THINK AND WRITE
+      READ Estimation, WTCP, and SPLIT TCP papers
