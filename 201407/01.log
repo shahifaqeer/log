@@ -1,0 +1,5 @@
+JULY OR DIE
+1100 - 1230: analyze iperf3 throughput
+            - with tcpdump vs without; sar parse cdf
+            - different transfer sizes udp and tcp
+            - latency...?

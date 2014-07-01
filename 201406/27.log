@@ -1,0 +1,2 @@
+0000 - 0300: run ciup 10 runs udp, tcp, pro with size argument 10K, 100K, 1M, 10M, 100M, 1000M (timeout between 0.1 to 15s)
+1215 - :
