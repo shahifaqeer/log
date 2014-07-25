@@ -1,5 +1,12 @@
 JULY OR DIE
+
+TODO:
+- ciup_10runs_all_proto_vary_iperf_size: use size instead of time with time blocking sockets but no tcpdump
+- iperf3-home-data/0050563b0aab_iperf3-ciup: 20 runs udp, bla, tcp, pro with tcpdump (1) on router
+- 00236c8cffb4_anna_1806_wireless_25: ?
+
 1100 - 1230: analyze iperf3 throughput
             - with tcpdump vs without; sar parse cdf
             - different transfer sizes udp and tcp
             - latency...?
+

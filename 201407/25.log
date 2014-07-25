@@ -1,0 +1,35 @@
+- Send meeting minutes
+- Reading group paper
+
+- Write my research
+-- the main idea of this paper is...
+-- just show end results not journey to it
+-- problems:
+  - udp
+  - router + tcpdump util limit
+  - active measurements limitations impact real data
+-- solutions:
+  - multi tcp
+  - interface counters
+  - another wired node
+-- what is wireless bw measurement? TCP and UDP
+-- variation in measurements - why?
+
+Research:
+- TCP test segment wise - 10 threaded
+- UDP test e2e ratios at home 2 sec
+- WTF confirm
+- check ping values baseline and ul
+- Try another router with openwrt + SAR output
+
+TODO program:
+- SAR values
+- tcpdump bandwidth of the particular flow
+- proper common graphs for udp, tcp, pro
+- iperf recv_bytes fixed and output
+- node B instead of router (capacity measurements)
+- node C instead of router (wireless)
+  > FATHOM_NODES, NON_FATHOM_NODES
+- traceroute for udp problems
+- reread netalyzr...?
+
